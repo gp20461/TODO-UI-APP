@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>TO DO APP</title>
+    <style>
+        .container{
+            display: flex;
+            height: 605px;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: center;
+            font-family:sans-serif;
+
+        }
+        .first{
+            display: flex;
+            height: 1px;
+
+            text-align: center;
+            font-family:sans-serif;
+        }
+        .box1{
+            width: 200px;
+            height: 340px;
+            border: 2px solid red;
+            color: red;
+            border-radius: 10px;
+            box-shadow:15px 15px 20px #d0dcd2
+        }
+        .box2{
+            width: 200px;
+            height: 340px;
+            border: 2px solid red;
+            color: red;
+            border-radius:10px;
+            box-shadow:15px 15px 20px #d0dcd2
+        }
+        .box3{
+            width: 200px;
+            height: 340px;
+            border: 2px solid red;
+            color: red;
+            border-radius:10px;
+            box-shadow:15px 15px 20px #d0dcd2 
+        }
+        #label{
+            font-size: 23px;
+            color: black;
+        }
+        .line{
+  text-decoration-line: line-through;
+        }
+        p{
+            font-size: 23px;
+            color : #d05a5a;
+        }
+        .head1 {
+    margin-top: 8px;
+    margin-left: 175px;
+    color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+        .head3{
+            display: block;
+            margin-top: 55px;
+    margin-left: 580px;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="first">
+        <div class="head1">
+<h2>Tasks  <span style="color: grey;font-size: 40px;font-family: sans-serif;margin-left: -7px;font-weight: 100;">Lists</span></h2>
+        </div>
+        <div class="head3"><a href="list.html"><i class="fa fa-plus-circle" style="font-size:35px;color:rgb(226, 98, 98)"></i></a>
+            <span style="color: grey;font-size: 30px;font-family: sans-serif;margin-left: 10px;">Add List</span></div>
+    </div>
+
+    <div class="container">
+        <div class="box1">
+         <a href="trip.html"><p>Trip To Paris</p></a><hr width=160 style="margin-left: 2.3rem;">
+         <h2 class="line">Completed task</h2>
+         <input style="font-size: 1px;" type="checkbox" >
+         <label id="label" for="task">Pending Task</label>
+        </div>
+        <div class="box2"> 
+            <p>My Todo List</p><hr width=160 style="margin-left: 2.3rem;">
+            <h2 class="line">Completed task</h2>
+            <input type="checkbox" >
+<label id = "label" for="task">Pending Task</label>
+        </div>
+        <div class="box3">
+            <p>My Todo List</p><hr width=160 style="margin-left: 2.3rem;">
+            <h2 class="line">Completed task</h2>
+            <input type="checkbox" >
+<label id = "label" for="task">Pending Task</label>
+        </div>
+
+    </div>
+</body>
+</html>

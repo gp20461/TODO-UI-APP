@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .bg-image {
+            
+            background-image: url("image2.png");
+            filter: blur(13px);
+            -webkit-filter: blur(13px);
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .bg-text {
+            background-color: white;
+            height: 173px;
+            width: 325px;
+            border: 1px solid red;
+            border-radius: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            color: rgb(226, 27, 27);
+            font-size: 21px;
+            text-align: center;
+            box-shadow:15px 15px 20px #d0dcd2
+
+
+        }
+        h4{
+            margin-top: 15px;
+            font-size: 21px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bg-image"></div>
+
+    <div class="bg-text">
+        <h4>Add New Item</h4>
+        <input style="font-size: 18px;border:1px solid red;border-radius: 3px;height: 30px;margin-top: 18px;"
+            type="text"><br><br>
+        <button style="border-radius: 40px;" type="button" class="btn btn-danger">ADD</button>
+    </div>
+
+</body>
+
+</html>
